@@ -12,7 +12,7 @@ library(ggplot2)
 # in the same folder on your computer
 # Use setwd() to point R to this correct folder
 # Import income.csv to an object called income
-setwd("~/Downloads/")
+#setwd("~/Downloads/")
 income <- read.csv("income.csv")
 
 income$occupation
